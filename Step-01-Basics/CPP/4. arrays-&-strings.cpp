@@ -1,3 +1,41 @@
+// Arrays
+
+#include <bits/stdc++.h>
+using namespace std;
+
+int main()
+{
+    int arr[5];
+    cin >> arr[0] >> arr[1] >> arr[2] >> arr[3] >> arr[4];
+
+    for (int i = 0; i < 5; i++)
+    {
+        cout << arr[i] << " ";
+    }
+    return 0;
+}
+
+// 2D Arrays
+int main()
+{
+    int arr[3][2];
+
+    arr[1][0] = 5;     // Assigning value to 2D array
+    cout << arr[1][0]; // Accessing value from 2D array
+    return 0;
+}
+
+// String
+
+int main()
+{
+    string s = "uday";
+    int len = s.size();
+    s[len - 1] = 'z';   // Modifying last character
+    cout << s[len - 1]; // Accessing last character
+    return 0;
+}
+
 // Finding the length of a string
 
 #include <bits/stdc++.h>
