@@ -58,5 +58,6 @@ int main()
     getline(cin, str);
     cout << str;
     return 0;
-} // will take the entire line till line break and puts it in str 
+} //getline will take the entire line till line break and puts it in str ,, 
+//if used only string it will take just unitil space is given after word.
 
