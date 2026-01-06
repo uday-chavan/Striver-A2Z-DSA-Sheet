@@ -51,3 +51,12 @@ int main()
     cout << "Value of x: " << x << " and y: " << y;
     return 0;
 }
+
+int main()
+{
+    string str;
+    getline(cin, str);
+    cout << str;
+    return 0;
+} // will take the entire line till line break and puts it in str 
+
