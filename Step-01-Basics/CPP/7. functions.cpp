@@ -22,6 +22,8 @@ using namespace std;
 //     return 0;
 // }
 
+//
+
 // pass by value -> makes copy for modifications, the original value remains unchanged
 
 // void doSomething(int num)
@@ -39,6 +41,8 @@ using namespace std;
 //     cout << num << endl;
 //     return 0;
 // }
+
+//
 
 // pass by reference
 
