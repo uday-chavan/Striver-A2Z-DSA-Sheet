@@ -32,11 +32,26 @@ int reverseNumber(int n)
     return rev;
 };
 
+bool checkPalindrome(int x)
+{
+    int copy = x;
+    if (x < 0)
+    {
+        return false;
+    }
+    int rev = 0;
+    while (x != 0)
+    {
+        int digit = x % 10;
+        rev = rev * 10 + digit;
+        x = x / 10;
+    }
+    return rev == copy;
+}
 int main()
 {
-    int n;
+    int x;
     cout << "Enter a number: ";
-    cin >> n;
-    cout << reverseNumber(n) << " ";
-    return 0;
+    cin >> x;
+    cout << boolalpha << checkPalindrome(x) << " ";
 }
