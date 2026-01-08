@@ -7,7 +7,7 @@ int main()
 
     cout << "Enter a number (1-7): ";
     cin >> day;
-
+    // Use of Switch-Case //
     switch (day)
     {
     case 1:
