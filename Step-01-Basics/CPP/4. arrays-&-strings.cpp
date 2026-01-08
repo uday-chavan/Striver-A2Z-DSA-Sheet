@@ -1,4 +1,4 @@
-// Arrays
+// Arrays //
 
 #include <bits/stdc++.h>
 using namespace std;
@@ -15,7 +15,7 @@ int main()
     return 0;
 }
 
-// 2D Arrays
+// 2D Arrays //
 int main()
 {
     int arr[3][2];
@@ -25,7 +25,7 @@ int main()
     return 0;
 }
 
-// String
+// String //
 
 int main()
 {
@@ -36,7 +36,7 @@ int main()
     return 0;
 }
 
-// Finding the length of a string
+// Finding the length of a string //
 
 #include <bits/stdc++.h>
 using namespace std;
@@ -53,7 +53,7 @@ public:
     }
 };
 
-// Driver code
+// Driver code //
 int main()
 {
     // Create object of Solution class
@@ -65,7 +65,7 @@ int main()
     return 0;
 }
 
-// Accessing Individual Characters
+// Accessing Individual Characters //
 
 #include <bits/stdc++.h>
 using namespace std;
@@ -86,7 +86,7 @@ public:
     }
 };
 
-// Driver code
+// Driver code //
 int main()
 {
     // Create object of Solution class
@@ -98,7 +98,7 @@ int main()
     return 0;
 }
 
-// Passing, Returning, and Assigning Strings
+// Passing, Returning, and Assigning Strings //
 
 #include <bits/stdc++.h>
 using namespace std;
@@ -139,7 +139,7 @@ int main()
     return 0;
 }
 
-// String Comparison
+// String Comparison //
 
 #include <bits/stdc++.h>
 using namespace std;
