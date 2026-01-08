@@ -1,4 +1,4 @@
-// For loop
+// For loop //
 
 #include <iostream>
 using namespace std;
@@ -12,7 +12,7 @@ int main()
     return 0;
 }
 
-// Nested For loop
+// Nested For loop //
 
 #include <iostream>
 using namespace std;
@@ -29,7 +29,7 @@ int main()
     return 0;
 }
 
-//  Conditionals Inside For Loops
+//  Conditionals Inside For Loops //
 
 for (int i = 1; i <= 10; i++)
 {
@@ -43,7 +43,7 @@ for (int i = 1; i <= 10; i++)
     }
 }
 
-// Customising For Loops
+// Customising For Loops //
 
 #include <iostream>
 using namespace std;
