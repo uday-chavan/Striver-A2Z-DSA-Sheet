@@ -12,7 +12,7 @@ void recursion(int count = 0)
 
 int main()
 {
-    // exceeding the memory by repeated calling -> stack overflow
+    // exceeding the memory by repeated calling -> stack overflow/Stack Space
     // The condition that we use for stopping -> base condition
     recursion();
     return 0;
