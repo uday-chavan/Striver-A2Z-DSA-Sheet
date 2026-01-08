@@ -1,3 +1,5 @@
+// 22 Pattern Problems //
+
 // for outer loop -> count the number of lines
 // for inner loop -> focus on the columns and connect them somehow to the rows
 // whatever is printed is printed in the inner loop.
