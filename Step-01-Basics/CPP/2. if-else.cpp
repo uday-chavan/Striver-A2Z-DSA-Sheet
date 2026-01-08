@@ -3,6 +3,7 @@ using namespace std;
 
 int main()
 {
+    // use of conditional statements //
     int marks = 45;
 
     if (marks < 25)
@@ -35,5 +36,3 @@ int main()
     }
     return 0;
 }
-
-// use of conditional statements //
