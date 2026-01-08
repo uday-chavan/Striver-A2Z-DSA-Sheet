@@ -6,6 +6,7 @@ int main()
     int n = 5;
     int factorial = 1;
 
+    // Use of While-loop
     while (n > 0)
     {
         factorial *= n; // Keep finding factorial with n and decrement n
