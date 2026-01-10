@@ -31,7 +31,6 @@ using namespace std;
 // }
 
 // character hashing //
-
 int main()
 {
     string s;
@@ -54,6 +53,7 @@ int main()
     }
     return 0;
 }
+
 // if lower case characters = s[i] - 'a' & c - 'a'
 // if upper case characters = s[i] - 'A' & c - 'a'
 // if all characters, i.e., hash[256] = only s[i] & c[i]
