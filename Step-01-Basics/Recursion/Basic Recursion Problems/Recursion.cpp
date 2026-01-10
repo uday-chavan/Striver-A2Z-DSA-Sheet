@@ -97,8 +97,19 @@ bool isPalindrome(string s)
     return checkstringIsPalindromeOrNot(0, cleaned);
 }
 
+int fibonacci(int n)
+{
+    if (n <= 1)
+        return n;
+    int last = fibonacci(n - 1);
+    int secondlast = fibonacci(n - 2);
+    return last + secondlast;
+}
+
 int main()
 {
+    cout << fibonacci(4);
+    return 0;
 }
 
 // stringIsPalindromeOrNot //
