@@ -28,3 +28,4 @@ int main()
     }
     return 0;
 }
+// array can go upto 10^6 in main or 10^7 globally
