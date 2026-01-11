@@ -63,6 +63,7 @@ void freqOfMostFreq(vector<int> &nums, int k)
 
 int main()
 {
+    // for countFreqofEachElement
     int arr[] = {10, 23, 45, 43, 34, 23};
     int n = sizeof(arr) / sizeof(arr[0]);
     // because, sizeof(arr) = 6 * 4 = 24
