@@ -22,6 +22,8 @@ void selection_sort(int arr[], int n)
     }
 }
 
+// Bubble Sort //
+
 void bubble_sort(int arr[], int n)
 {
     for (int i = n - 1; i >= 0; i--) // because last is n-1 in arrays
@@ -44,6 +46,8 @@ void bubble_sort(int arr[], int n)
         cout << "runs\n"; // to check how many times it ran.
     }
 }
+
+// Insertion Sort //
 
 void insertion_sort(int arr[], int n)
 {
